@@ -1,4 +1,4 @@
-const baseUrl = 'https://api.b7web.com.br/neowebcondo/api/admin';
+const baseUrl = 'https://api.b7web.com.br/aprendizcond/api/admin';
 
 const request = async (method, endpoint, params, token = null) => {
     method = method.tolowerCase();
