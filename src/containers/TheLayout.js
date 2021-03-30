@@ -5,7 +5,7 @@ import useApi from '../services/api';
 
 const TheLayout = () => {
   const api = useApi();
-  const History = useHistory();
+  const history = useHistory();
 
   const [loading, setLoading] = useState(true);
 
